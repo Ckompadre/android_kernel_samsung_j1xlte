@@ -885,7 +885,6 @@ thermal_cooling_device_trip_point_show(struct device *dev,
 }
 
 /* Device management */
-
 /**
  * thermal_zone_bind_cooling_device() - bind a cooling device to a thermal zone
  * @tz:		pointer to struct thermal_zone_device
