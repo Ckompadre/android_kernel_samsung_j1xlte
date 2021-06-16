@@ -457,9 +457,6 @@ static int __cpuinit exynos4_local_timer_setup(struct clock_event_device *evt)
 	clockevents_config_and_register(evt, clk_rate / (TICK_BASE_CNT + 1),
 					0xf, 0x7fffffff);
 
-	clockevents_config_and_register(evt, clk_rate / (tick_base_cnt + 1),
-					0xf, 0x7fffffff);
-
 	return 0;
 }
 
